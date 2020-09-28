@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*style images*/
+img {
+	max-width: 50%;
+	float: left;
+}
+
+/* style paragraph font*/
+p {
+	font: 48px arial black;
+	color: #1021bf;
+	text-align: center;	
+}
+
+p5 {
+	font: 36px arial black;
+	color: #1021bf;
+	text-align: left;
+}
+p6 {
+	font: 24px arial;
+	color: #1021bf;
+	text-align: right;
+}
+
+div {
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	padding: 80px;
+}	
+
+
+div1 {
+	text-align: center;
+	margin: auto;
+	max-width: 50%;
+	padding: 10px;
+	}
+
+/*style image*/
+#retro {
+	max-height: 662px;
+	max-width: 480px; 
+	height: 662px;
+	width: 480px;
+	}
+
+#font {
+	border-radius: 50%;
+	max-height: 75px;
+	max-width: 75px;
+	height: 60px;
+	width: 60px;
+}
+
+/*style header paragraph*/
+
+header {
+	font: 20px lucida console;
+	color: #1021bf
+}
+
+/*style nav section*/
+nav {
+	
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+}
+
+/*style navigation menu*/
+.button {
+	background-color: #ccffff;
+	border: none; 
+	color: #1021bf;
+	padding: 2px 15px;
+	font: 12px arial ;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.button12 {
+	background-color: cyan;
+	color: #1021bf;
+	border: none;
+	border-radius: 12px;
+}
+
+.button12 {
+	background-color: #ccffff;
+	border: none; 
+	color: #1021bf;
+	padding: 12px 25px;
+	font: 36px arial black;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	}
+.button1 {
+	background-color: cyan;
+	color: #1021bf;
+	border: none;
+	border-radius: 12px;
+}
+
+/*style to keep footer at bottom of page*/
+footer {
+	clear: both;
+	position: relative;
+	margin-top: 200px;
+}
+
+/*style nav2 portfolio page*/
+nav2 {
+	font: 20px arial;
+	text-align: left;
+}
+
+/*background*/
+body {
+	background: #ccffff
+}
+/*style for table on about.html*/
+table {
+	border: none;
+	width: 50%;
+	padding: 0em;
+	}
+
+/*style to center table on about.html*/
+.center {
+	 
+	margin-left: auto;
+	margin-right: auto;
+}
+	/*border and padding for th & td elements*/
+td {
+	border: none;
+	padding: 1em;
+	color: #1021bf;
+	font: 16px Arial;
+	vertical-align: top;
+	}
+/*striped table*/
+tr:nth-child(odd) {
+	background-color:aquamarine;
+}
+	/*table caption*/
+caption {
+	border: 0em solid #66ffff;
+	padding: 0em;
+	color: #1021bf;
+	font: 20px Arial black;
+	text-align: center;
+}
+
+	.learning {
+	text-align: center;
+	color: #1021bf;
+	font: 16px arial;
+	padding-bottom: 1em;
+}
+
+/*style list about.html to remove bullets and add color*/
+ul {
+	font: 16px Arial;
+	color: #1021bf;
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1px;
+	max-width: 20%;
+}
+
+li {
+	padding-top: .5em;
+}
+/*style list heading on about2.html*/
+h1 {
+	color: #1021bf;
+	font: 30px Arial black;
+	max-width: 50%;
+	}
+.stuff {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1px;
+	max-width: 50%;
+}
+/*style footer*/
+footer {
+	font: 12px arial;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+	color: #0000e6
+}
+
+/* style form on work with me - Style inputs with type="text", select elements and textareas */
+label { 
+font: 16px arial;
+color: #1021bf;
+}
+input[type=text], select, textarea {
+  width: 50%; 
+	margin-left: auto;
+	margin-right: auto;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 6px; /* rounded borders */
+  box-sizing: border-box; /* padding and width stick */
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; /* allow user to vertically resize textarea */
+	color: #1021bf;
+	font: 16px arial;
+}
+
+/* Style submit button with a specific background color  */
+input[type=submit] {
+  background-color: mediumaquamarine;
+  color: #1021bf;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+	font: 16px arial;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: aquamarine;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #ccffff;
+  padding: 20px;
+}
+
+/*style to create css gallery*/
+div.gallery {
+		margin: 5px;
+		border: 2px solid #0A16FC;
+		float: left;
+		
+	}
+			
+	div.gallery:hover {
+		border: 2px solid #4407F3;
+		}
+			
+	div.gallery img {
+		width: 100%;
+		height: auto;
+		}
+			
+	div.desc {
+		padding: 5px;
+		text-align: right;
+		font: 16px arial;
+		color: #1021bf;
+	}			
+
